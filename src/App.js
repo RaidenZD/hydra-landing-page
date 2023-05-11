@@ -1,3 +1,4 @@
+import About from "./containers/About";
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
 
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <About />
       </main>
     </div>
   );
