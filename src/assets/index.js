@@ -27,6 +27,12 @@ import unreal from "./unreal.svg";
 import vive from "./vive.svg";
 import youtube from "./youtube.svg";
 import smHline from "./linee.svg";
+import aboutLine1 from "./about-line1.svg";
+import aboutLine2 from "./about-line2.svg";
+import vr2 from "./vr2.png";
+import vr3 from "./vr3.png";
+import vr4 from "./vr4.png";
+import vr5 from "./vr5.png";
 
 export {
   logo,
@@ -58,4 +64,10 @@ export {
   vrImage,
   h_line,
   smHline,
+  aboutLine1,
+  aboutLine2,
+  vr2,
+  vr3,
+  vr4,
+  vr5,
 };

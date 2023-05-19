@@ -1,6 +1,7 @@
 import About from "./containers/About";
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
+import Services from "./containers/Services";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Services />
       </main>
     </div>
   );

@@ -1,4 +1,5 @@
-import { navigation, call, message } from "../assets";
+import { navigation, call, message, vr2, vr3, vr4, vr5 } from "../assets";
+import { nanoid } from "nanoid";
 
 const navLinks = [
   {
@@ -40,4 +41,35 @@ const contacts = [
   },
 ];
 
-export { navLinks, contacts };
+const buildList = [
+  {
+    id: nanoid(),
+    image: vr2,
+    title: "SIMULATION",
+    description:
+      "Vitae sapien pellentesque habitant morbi nunc Viverra aliquet porttitor rhoncus libero justo laoreet sit amet vitae",
+  },
+  {
+    id: nanoid(),
+    image: vr3,
+    title: "EDUCATION",
+    description:
+      "Vitae sapien pellentesque habitant morbi nunc Viverra aliquet porttitor rhoncus libero justo laoreet sit amet vitae",
+  },
+  {
+    id: nanoid(),
+    image: vr4,
+    title: "SELF-CARE",
+    description:
+      "Vitae sapien pellentesque habitant morbi nunc Viverra aliquet porttitor rhoncus libero justo laoreet sit amet vitae",
+  },
+  {
+    id: nanoid(),
+    image: vr5,
+    title: "OUTDOOR",
+    description:
+      "Vitae sapien pellentesque habitant morbi nunc Viverra aliquet porttitor rhoncus libero justo laoreet sit amet vitae",
+  },
+];
+
+export { navLinks, contacts, buildList };

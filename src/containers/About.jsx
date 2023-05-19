@@ -1,10 +1,10 @@
 import Article from "../components/Article";
 import Button from "../components/Button";
-import { vrImage } from "../assets";
+import { vrImage, aboutLine1, aboutLine2 } from "../assets";
 
 const About = () => {
   return (
-    <section>
+    <section className="">
       <Article
         boldTitle="INTRODUCTION"
         lightTitle="TO HYDRA VR"
@@ -38,6 +38,18 @@ const About = () => {
           <Button text="LET’S GET IN TOUCH" type="button" />
         </article>
       </div>
+
+      <img
+        className=" absolute -left-[6.5px] top-[1260px] -z-20"
+        src={aboutLine1}
+        alt="line"
+      />
+
+      <img
+        className=" absolute -left-[4.5px] top-[1545px] -z-20"
+        src={aboutLine2}
+        alt="line"
+      />
     </section>
   );
 };
