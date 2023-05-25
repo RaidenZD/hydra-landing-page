@@ -14,7 +14,7 @@ const Services = () => {
                     lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
       />
 
-      <ul className=" flex gap-3">
+      <ul className=" flex gap-4 mt-24">
         {buildList.map((item) => {
           return <BuildCard key={item.id} {...item} />;
         })}

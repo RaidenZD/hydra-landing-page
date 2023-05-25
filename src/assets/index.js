@@ -33,6 +33,8 @@ import vr2 from "./vr2.png";
 import vr3 from "./vr3.png";
 import vr4 from "./vr4.png";
 import vr5 from "./vr5.png";
+import vrh from "./vrh.png";
+import chevron from "./chevron-down.svg";
 
 export {
   logo,
@@ -70,4 +72,6 @@ export {
   vr3,
   vr4,
   vr5,
+  vrh,
+  chevron,
 };

@@ -1,4 +1,16 @@
-import { navigation, call, message, vr2, vr3, vr4, vr5 } from "../assets";
+import {
+  navigation,
+  call,
+  message,
+  vr2,
+  vr3,
+  vr4,
+  vr5,
+  unreal,
+  unity,
+  oculus,
+  vive,
+} from "../assets";
 import { nanoid } from "nanoid";
 
 const navLinks = [
@@ -72,4 +84,23 @@ const buildList = [
   },
 ];
 
-export { navLinks, contacts, buildList };
+const techList = [
+  {
+    id: nanoid(),
+    image: unreal,
+  },
+  {
+    id: nanoid(),
+    image: unity,
+  },
+  {
+    id: nanoid(),
+    image: oculus,
+  },
+  {
+    id: nanoid(),
+    image: vive,
+  },
+];
+
+export { navLinks, contacts, buildList, techList };
