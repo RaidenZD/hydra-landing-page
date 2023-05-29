@@ -19,12 +19,20 @@ const Tech = () => {
           USED BY HYDRA VR.
         </p>
 
-        <button className=" z-10 bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] h-[65px] w-[65px] rounded-full grid place-items-center border-[#0E0E0E] border-8">
+        <button className=" absolute -bottom-10 z-10 bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] h-[70px] w-[70px] rounded-full grid place-items-center border-[#0E0E0E] border-[11px] border-opacity-90">
           <img className=" scale-75" src={chevron} alt="chevron" />
         </button>
       </div>
 
-      <ul></ul>
+      <ul className=" mt-16 flex justify-between items-center">
+        {techList.map((item) => {
+          return (
+            <li key={item.id}>
+              <img src={item.image} alt="tech image" />
+            </li>
+          );
+        })}
+      </ul>
     </section>
   );
 };
