@@ -103,4 +103,31 @@ const techList = [
   },
 ];
 
-export { navLinks, contacts, buildList, techList };
+const processList = [
+  {
+    id: nanoid(),
+    number: "01",
+    upperText: "3D Conception",
+    downText: "& Design",
+  },
+  {
+    id: nanoid(),
+    number: "02",
+    upperText: "Interaction",
+    downText: "Design",
+  },
+  {
+    id: nanoid(),
+    number: "03",
+    upperText: "VR World",
+    downText: "User Testing",
+  },
+  {
+    id: nanoid(),
+    number: "04",
+    upperText: "Hydra VR",
+    downText: "Deploy",
+  },
+];
+
+export { navLinks, contacts, buildList, techList, processList };

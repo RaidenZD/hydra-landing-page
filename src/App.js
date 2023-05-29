@@ -1,6 +1,7 @@
 import About from "./containers/About";
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
+import Process from "./containers/Process";
 import Services from "./containers/Services";
 import Tech from "./containers/Tech";
 
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Services />
         <Tech />
+        <Process />
       </main>
     </div>
   );
