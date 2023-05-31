@@ -1,6 +1,7 @@
 import Article from "../components/Article";
 import ProcessItem from "../components/ProcessItem";
 import { processList } from "../utils/constants";
+import { line5 } from "../assets";
 
 const Process = () => {
   return (
@@ -19,6 +20,12 @@ const Process = () => {
           return <ProcessItem key={item.id} {...item} />;
         })}
       </ul>
+
+      <img
+        className=" absolute top-[3720px] -z-20 -left-[9px]"
+        src={line5}
+        alt="line"
+      />
     </section>
   );
 };
