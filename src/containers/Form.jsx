@@ -13,15 +13,16 @@ const Form = () => {
       </p>
 
       <div className=" grid grid-cols-2 self-stretch mt-16 mb-[51px]  gap-x-[10px] gap-y-9">
-        <Input />
-        <Input />
-        <Input />
-        <Input />
-        <Input span={true} />
+        <Input placeHolder="First Name" />
+        <Input placeHolder="Last Name" />
+        <Input placeHolder="Email" />
+        <Input placeHolder="Phone Number" />
+        <Input placeHolder="Subject" span={true} />
         <textarea
           className="rounded-[40px] border-2 border-white bg-transparent col-span-2 text-sm text-white py-6 px-11"
-          name=""
-          id=""
+          name="message"
+          placeholder="Tell Us Something..."
+          id="message"
           rows={9}
         ></textarea>
       </div>
