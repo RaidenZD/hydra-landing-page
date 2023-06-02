@@ -1,4 +1,5 @@
 import About from "./containers/About";
+import Footer from "./containers/Footer";
 import Form from "./containers/Form";
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
@@ -17,6 +18,7 @@ function App() {
         <Tech />
         <Process />
         <Form />
+        <Footer />
       </main>
     </div>
   );

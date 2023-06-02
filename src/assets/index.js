@@ -36,6 +36,7 @@ import vr5 from "./vr5.png";
 import vrh from "./vrh.png";
 import chevron from "./chevron-down.svg";
 import smallArrow from "./arrow-small.svg";
+import footerHLine from "./footerHLine.svg";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   vrh,
   chevron,
   smallArrow,
+  footerHLine,
 };

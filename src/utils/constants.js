@@ -130,4 +130,23 @@ const processList = [
   },
 ];
 
-export { navLinks, contacts, buildList, techList, processList };
+const footerList = [
+  {
+    id: nanoid(),
+    title: "F.A.Q",
+  },
+  {
+    id: nanoid(),
+    title: "SITEMAP",
+  },
+  {
+    id: nanoid(),
+    title: "CONDITIONS",
+  },
+  {
+    id: nanoid(),
+    title: "LICENSES",
+  },
+];
+
+export { navLinks, contacts, buildList, techList, processList, footerList };
