@@ -64,18 +64,22 @@ const Hero = () => {
       </div>
 
       {/* Contact */}
-      <div className=" mt-24 mb-20 flex justify-between rounded-full px-12 py-12  bg-gradient-to-tr from-[#3A3456F2] to-[#211E2E]">
+      <div className=" mt-24 mb-20 flex justify-between rounded-full px-12 py-8 pr-28  bg-gradient-to-tr from-[#3A3456F2] to-[#211E2E]">
         <Contact
           title={contactList[0].title}
           description={contactList[0].description}
           icon={contactList[0].icon}
         />
 
+        <div className=" w-[1px] h-[116px] bg-[#C0B7E854]"></div>
+
         <Contact
           title={contactList[1].title}
           description={contactList[1].description}
           icon={contactList[1].icon}
         />
+
+        <div className=" w-[1px] h-[116px] bg-[#C0B7E854]"></div>
 
         <Contact
           title={contactList[2].title}

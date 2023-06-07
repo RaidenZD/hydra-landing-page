@@ -1,7 +1,7 @@
 const Contact = ({ icon, title, description }) => {
   return (
-    <div className=" flex gap-6">
-      <img src={icon} alt="icon" />
+    <div className=" flex items-center gap-6">
+      <img className=" w-14" src={icon} alt="icon" />
 
       <div className=" flex flex-col gap-2 text-white">
         <h2 className=" font-[700] text-2xl">{title}</h2>
