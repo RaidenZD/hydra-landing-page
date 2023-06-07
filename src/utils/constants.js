@@ -10,6 +10,12 @@ import {
   unity,
   oculus,
   vive,
+  facebook,
+  twitter,
+  linkedin,
+  youtube,
+  instagram,
+  pinterest,
 } from "../assets";
 import { nanoid } from "nanoid";
 
@@ -149,4 +155,45 @@ const footerList = [
   },
 ];
 
-export { navLinks, contacts, buildList, techList, processList, footerList };
+const footerSocials = [
+  {
+    id: nanoid(),
+    image: facebook,
+    name: "facebook",
+  },
+  {
+    id: nanoid(),
+    image: twitter,
+    name: "twitter",
+  },
+  {
+    id: nanoid(),
+    image: linkedin,
+    name: "linkedin",
+  },
+  {
+    id: nanoid(),
+    image: youtube,
+    name: "youtube",
+  },
+  {
+    id: nanoid(),
+    image: instagram,
+    name: "instagram",
+  },
+  {
+    id: nanoid(),
+    image: pinterest,
+    name: "pinterest",
+  },
+];
+
+export {
+  navLinks,
+  contacts,
+  buildList,
+  techList,
+  processList,
+  footerList,
+  footerSocials,
+};
