@@ -4,7 +4,7 @@ import { buildList } from "../utils/constants";
 
 const Services = () => {
   return (
-    <section className=" mt-28">
+    <section id="services" className=" mt-28">
       <Article
         boldTitle="WHY BUILD"
         lightTitle="WITH HYDRA?"

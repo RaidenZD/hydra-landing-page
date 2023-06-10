@@ -5,7 +5,7 @@ import { line5 } from "../assets";
 
 const Process = () => {
   return (
-    <section className=" mt-20">
+    <section id="how" className=" mt-20">
       <Article
         boldTitle="HOW WE BUILD"
         lightTitle="WITH HYDRA VR?"

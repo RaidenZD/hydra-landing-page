@@ -1,11 +1,13 @@
-import About from "./containers/About";
-import Footer from "./containers/Footer";
-import Form from "./containers/Form";
-import Header from "./containers/Header";
-import Hero from "./containers/Hero";
-import Process from "./containers/Process";
-import Services from "./containers/Services";
-import Tech from "./containers/Tech";
+import {
+  About,
+  Footer,
+  Form,
+  Header,
+  Hero,
+  Process,
+  Services,
+  Tech,
+} from "./containers";
 
 function App() {
   return (

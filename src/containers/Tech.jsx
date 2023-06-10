@@ -3,7 +3,7 @@ import { vrh, chevron } from "../assets";
 
 const Tech = () => {
   return (
-    <section className=" mt-28">
+    <section id="tech" className=" mt-28">
       <div className=" relative flex flex-col items-center justify-center rounded-full h-[303px]">
         <img
           className=" absolute rounded-full top-0 left-0"
@@ -28,7 +28,7 @@ const Tech = () => {
         {techList.map((item) => {
           return (
             <li key={item.id}>
-              <img src={item.image} alt="tech image" />
+              <img src={item.image} alt="tech" />
             </li>
           );
         })}

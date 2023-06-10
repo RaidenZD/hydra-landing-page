@@ -4,7 +4,7 @@ import { vrImage, aboutLine1, aboutLine2 } from "../assets";
 
 const About = () => {
   return (
-    <section className="">
+    <section id="about">
       <Article
         boldTitle="INTRODUCTION"
         lightTitle="TO HYDRA VR"

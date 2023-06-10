@@ -32,7 +32,9 @@ const Header = () => {
       <nav className=" hidden lg:block">
         <ul className=" flex gap-10 text-white cursor-pointer text-xs font-[700]">
           {navLinks.map((navItem) => (
-            <li key={navItem.id}>{navItem.title}</li>
+            <li key={navItem.id}>
+              <a href={navItem.path}>{navItem.title}</a>
+            </li>
           ))}
         </ul>
       </nav>

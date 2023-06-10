@@ -23,18 +23,22 @@ const navLinks = [
   {
     id: "nav1",
     title: "About",
+    path: "#about",
   },
   {
     id: "nav2",
     title: "Services",
+    path: "#services",
   },
   {
     id: "nav3",
     title: "Technologies",
+    path: "#tech",
   },
   {
     id: "nav4",
     title: "How To",
+    path: "#how",
   },
 ];
 
